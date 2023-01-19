@@ -1,0 +1,76 @@
+h1{
+  color:white;
+ }
+ 
+ *{
+  background-color: #020202; 
+ }
+ .parent{
+
+ box-sizing: border-box;
+ display:grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr;  
+ grid-auto-flow:row;
+ gap:180px 50px;
+ display: grid;
+  justify-content: center; 
+  align-content: center; 
+ }
+ 
+ .box{
+  width:100px;
+  height:150px;
+   background:rgb(255, 255, 255);
+   border:1px solid;
+   transition:0.2s;
+   margin: 0 auto; 
+   text-align: center; 
+ }
+ .box:hover{
+  transform:scale(1.3,1.3);
+ }
+
+ /*---------------------------------------------------------------*/
+nav{
+ background-color:black; 
+ height:80px;
+ width:100%;
+}
+
+label.logo{
+color:white;
+font-size:35px;
+line-height:80px;
+font-weight:bold;
+ padding:10px;  
+  
+}
+nav ul{
+float:right;
+margin-right:20px;
+  
+}
+
+nav ul li{display:inline-block;
+line-height:80px;
+ margin:0 5px;
+  
+}
+
+nav ul li a{
+ color: orange;
+ font-size:17px;
+ text-transform:uppercase;
+ padding:7px 13px;
+}
+
+a:hover{
+background-color:#353935;
+transition:2s;
+}
+
+a.active{
+background-color:black;
+ 
+}
